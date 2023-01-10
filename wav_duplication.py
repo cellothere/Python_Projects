@@ -9,7 +9,7 @@ Created on Tue Jan 10 09:49:52 2023
 
 import wave
 
-good_morning = wave.open('/Users/paulbergeron/Desktop/good-morning.wav', 'rb')
+good_morning = wave.open('good-morning.wav', 'rb')
 
 print('No. of Channels', good_morning.getnchannels())
 print('Sample width', good_morning.getsampwidth())
